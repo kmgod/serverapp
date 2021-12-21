@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
         map(response => {
           const index = this.dataSubject.value.data.servers.findIndex(server => server.id === response.data.server.id);
           this.dataSubject.value.data.servers[index] = response.data.server
-          this.filterSubject.next('');
+          this.filterSubject.next(' ');
           return { dataState: DataState.LOADED_STATE, appData: this.dataSubject.value }
         }),
         startWith({ dataState: DataState.LOADING_STATE, appData: this.dataSubject.value }),
