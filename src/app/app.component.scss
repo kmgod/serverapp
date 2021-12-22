@@ -1,0 +1,20 @@
+@import url('https://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+body{
+  background: #edf1f5;
+  margin-top: 20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0;
+}
+.card {
+  margin-bottom: 50px;
+}
